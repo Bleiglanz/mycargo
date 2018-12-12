@@ -3,8 +3,9 @@ mod database;
 
 fn main() {
     excel::readfile();
-    database::execute();
-/*
+
+    /*    database::execute();
+
     println!("Hello, world!");
     println!("Servus Anton");
     let mut s:String = "Hallo".to_string(); // String literals are refs, have to be converted?
